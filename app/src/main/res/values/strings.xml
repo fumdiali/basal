@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"><b>BASAL</b></string>
+    <string name="about">About &amp; Help</string>
+    <string name="web">Web Search</string>
+    <string name="mathact">Basic Maths</string>
+    <string name="engact">Basic English</string>
+    <string name="sciact">Basic Science</string>
+    <string name="iboact">Basic Igbo</string>
+    <string name="genact">General Knowledge</string>
+    <string name="compact">Basic Computer Science</string>
+</resources>

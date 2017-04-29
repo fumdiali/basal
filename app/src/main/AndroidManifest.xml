@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.base111.basal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/basal_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MathActivity"
+            android:label="@string/mathact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EngActivity"
+            android:label="@string/engact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SciActivity"
+            android:label="@string/sciact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".IboActivity"
+            android:label="@string/iboact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GenActivity"
+            android:label="@string/genact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CompActivity"
+            android:label="@string/compact"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".AboutAppActivity"
+            android:label="@string/about"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
